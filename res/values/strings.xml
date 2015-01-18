@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">atSolat</string>
+    <string name="about">About</string>
+	<string name="setting">Settings</string>
+	<string name="exit">Exit</string>
+	
+	<string-array name="states">
+        <item>Johor</item>
+        <item>Kedah</item>
+        <item>Kelantan</item>
+        <item>Melaka</item>
+        <item>Negeri Sembilan</item>
+        <item>Pahang</item>
+        <item>Perak</item>
+        <item>Perlis</item>
+        <item>Pulau Pinang</item>
+        <item>Sabah</item>
+        <item>Sarawak</item>
+        <item>Selangor</item>
+        <item>Terengganu</item>
+        <item>Wilayah Persekutuan</item>
+    </string-array>
+    
+	<string-array name="district_johor">
+		<item>Batu Pahat</item>
+		<item>Gemas</item>
+		<item>Johor Bahru</item>
+		<item>Kluang</item>
+		<item>Kota Tinggi</item>
+		<item>Mersing</item>
+		<item>Muar</item>
+		<item>Pemanggil</item>
+		<item>Pontian</item>
+		<item>Pulau Aur</item>
+		<item>Segamat</item>
+	</string-array>
+	
+	<string-array name="district_kedah">
+		<item>Baling</item>
+		<item>Bandar Baharu</item>
+		<item>Kota Setar</item>
+		<item>Kuala Muda</item>
+		<item>Kubang Pasu</item>
+		<item>Kulim</item>
+		<item>Langkawi</item>
+		<item>Padang Terap</item>
+		<item>Pendang</item>
+		<item>Pokok Sena</item>
+		<item>Puncak Gunung Jerai</item>
+		<item>Sik</item>
+		<item>Yan</item>
+	</string-array>
+	
+	<string-array name="district_kelantan">
+		<item>Bachok</item>
+		<item>Bertam</item>
+		<item>Jeli</item>
+		<item>Kota Bharu</item>
+		<item>Kuala Krai</item>
+		<item>Machang</item>
+		<item>Mukim Chiku</item>
+		<item>Mukim Galas</item>
+		<item>Pasir Mas</item>
+		<item>Pasir Puteh</item>
+		<item>Tanah Merah</item>
+		<item>Tumpat</item>
+	</string-array>
+	
+	<string-array name="district_melaka">
+		<item>Alor Gajah</item>
+		<item>Bandar Melaka</item>
+		<item>Jasin</item>
+		<item>Masjid Tanah</item>
+		<item>Merlimau</item>
+		<item>Nyalas</item>
+	</string-array>
+	
+	<string-array name="district_negeri_sembilan">
+		<item>Jelebu</item>
+		<item>Jempol</item>
+		<item>Kuala Pilah</item>
+		<item>Port Dickson</item>
+		<item>Rembau</item>
+		<item>Seremban</item>
+		<item>Tampin</item>
+	</string-array>
+	
+	<string-array name="district_pahang">
+		<item>Bentong</item>
+		<item>Bera</item>
+		<item>Bukit Fraser</item>
+		<item>Cameron Highland</item>
+		<item>Chenor</item>
+		<item>Genting Highlands</item>
+		<item>Jerantut</item>
+		<item>Kuala Lipis</item>
+		<item>Kuantan</item>
+		<item>Maran</item>
+		<item>Muadzam Shah</item>
+		<item>Pekan</item>
+		<item>Pulau Tioman</item>
+		<item>Raub</item>
+		<item>Rompin</item>
+		<item>Temerloh</item>
+	</string-array>
+	
+	<string-array name="district_perak">
+		<item>Bagan Datoh</item>
+		<item>Bagan Serai</item>
+		<item>Batu Gajah</item>
+		<item>Belum</item>
+		<item>Beruas</item>
+		<item>Bukit Larut</item>
+		<item>Grik</item>
+		<item>Ipoh</item>
+		<item>Kampar</item>
+		<item>Kampung Gajah</item>
+		<item>Kuala Kangsar</item>
+		<item>Lenggong</item>
+		<item>Lumut</item>
+		<item>Parit</item>
+		<item>Parit Buntar</item>
+		<item>Pengkalan Hulu</item>
+		<item>Pulau Pangkor</item>
+		<item>Selama</item>
+		<item>Setiawan</item>
+		<item>Slim River</item>
+		<item>Sri Iskandar</item>
+		<item>Sungai Siput</item>
+		<item>Taiping</item>
+		<item>Tanjung Malim</item>
+		<item>Tapah</item>
+		<item>Teluk Intan</item>
+		<item>Temengor</item>
+	</string-array>
+	
+	<string-array name="district_perlis">
+		<item>Arau</item>
+		<item>Kangar</item>
+		<item>Padang Besar</item>
+	</string-array>
+	
+	<string-array name="district_pulau_pinang">
+		<item>Seluruh Pulau Pinang</item>
+	</string-array>
+	
+	<string-array name="district_sabah">
+		<item>Balong</item>
+		<item>Bandar Bukit Garam</item>
+		<item>Beaufort</item>
+		<item>Beluran</item>
+		<item>Gunung Kinabalu</item>
+		<item>Kalabakan</item>
+		<item>Keningau</item>
+		<item>Kota Belud</item>
+		<item>Kota Kinabalu</item>
+		<item>Kota Marudu</item>
+		<item>Kuala Penyu</item>
+		<item>Kuamut</item>
+		<item>Kudat</item>
+		<item>Kunak</item>
+		<item>Lahat Datu</item>
+		<item>Long Pa Sia</item>
+		<item>Membakut</item>
+		<item>Merotai</item>
+		<item>Nabawan</item>
+		<item>Papar</item>
+		<item>Penampang</item>
+		<item>Pensiangan</item>
+		<item>Pinangah</item>
+		<item>Pitas</item>
+		<item>Pulau Banggi</item>
+		<item>Ranau</item>
+		<item>Sahabat</item>
+		<item>Sandakan</item>
+		<item>Semawang</item>
+		<item>Semporna</item>
+		<item>Silabukan</item>
+		<item>Sipitang</item>
+		<item>Tambisan</item>
+		<item>Tambunan</item>
+		<item>Tawau</item>
+		<item>Telupit</item>
+		<item>Temanggong</item>
+		<item>Tenom</item>
+		<item>Terusan</item>
+		<item>Tuaran</item>
+		<item>Tungku</item>
+		<item>Weston</item>
+	</string-array>
+	
+	<string-array name="district_sarawak">
+		<item>Bau</item>
+		<item>Bekenu</item>
+		<item>Belaga</item>
+		<item>Belawai</item>
+		<item>Belingan</item>
+		<item>Betong</item>
+		<item>Bintulu</item>
+		<item>Bitangor</item>
+		<item>Dalat</item>
+		<item>Daro</item>
+		<item>Debak</item>
+		<item>Engkelili</item>
+		<item>Igan</item>
+		<item>Julau</item>
+		<item>Kabong</item>
+		<item>Kanowit</item>
+		<item>Kapit</item>
+		<item>Kuching</item>
+		<item>Lawas</item>
+		<item>Limbang</item>
+		<item>Lingga</item>
+		<item>Lundu</item>
+		<item>Marudi</item>
+		<item>Matu</item>
+		<item>Meludam</item>
+		<item>Miri</item>
+		<item>Niah</item>
+		<item>Oya</item>
+		<item>Pusa</item>
+		<item>Rajang</item>
+		<item>Roban</item>
+		<item>Samarahan</item>
+		<item>Saratok</item>
+		<item>Sarikei</item>
+		<item>Sebauh</item>
+		<item>Sebuyau</item>
+		<item>Sematan</item>
+		<item>Serian</item>
+		<item>Sibu</item>
+		<item>Sibuti</item>
+		<item>Simunjan</item>
+		<item>Song</item>
+		<item>Spaoh</item>
+		<item>Sri Aman</item>
+		<item>Sundar</item>
+		<item>Tatau</item>
+		<item>Terusan</item>	
+	</string-array>
+	
+	<string-array name="district_selangor">
+		<item>Gombak</item>
+		<item>Hulu Langat</item>
+		<item>Hulu Selangor</item>
+		<item>Klang</item>
+		<item>Kuala Langat</item>
+		<item>Kuala Selangor</item>
+		<item>Petaling</item>
+		<item>Rawang</item>
+		<item>Sabak Bernam</item>
+		<item>Sepang</item>
+		<item>Shah Alam</item>
+	</string-array>
+	
+	<string-array name="district_terengganu">
+		<item>Besut</item>
+		<item>Hulu Terrenganu</item>
+		<item>Kemaman Dungun</item>
+		<item>Kuala Terengganu</item>
+		<item>Marang</item>
+		<item>Setiu</item>
+	</string-array>
+	
+	<string-array name="district_wilayah_persekutuan">
+		<item>Kuala Lumpur</item>
+		<item>Labuan</item>
+		<item>Putrajaya</item>
+	</string-array>
+	
+	<string-array name="johor_code">
+	    <item>jhr-0</item>
+		<item>jhr-1</item>
+		<item>jhr-2</item>
+		<item>jhr-3</item>
+		<item>jhr-4</item>
+		<item>jhr-5</item>
+		<item>jhr-6</item>
+		<item>jhr-7</item>
+		<item>jhr-8</item>
+		<item>jhr-9</item>
+		<item>jhr-10</item>
+	</string-array>
+	
+	<string-array name="kedah_code">
+		<item>kdh-0</item>
+		<item>kdh-1</item>
+		<item>kdh-2</item>
+		<item>kdh-3</item>
+		<item>kdh-4</item>
+		<item>kdh-5</item>
+		<item>kdh-6</item>
+		<item>kdh-7</item>
+		<item>kdh-8</item>
+		<item>kdh-9</item>
+		<item>kdh-10</item>
+		<item>kdh-11</item>
+		<item>kdh-12</item>
+	</string-array>
+	
+	<string-array name="kelantan_code">
+		<item>ktn-0</item>
+		<item>ktn-1</item>
+		<item>ktn-2</item>
+		<item>ktn-3</item>
+		<item>ktn-4</item>
+		<item>ktn-5</item>
+		<item>ktn-6</item>
+		<item>ktn-7</item>
+		<item>ktn-8</item>
+		<item>ktn-9</item>
+		<item>ktn-10</item>
+		<item>ktn-11</item>
+	</string-array>
+	
+	<string-array name="melaka_code">
+	    <item>mlk-0</item>
+	    <item>mlk-1</item>
+	    <item>mlk-2</item>
+	    <item>mlk-3</item>
+	    <item>mlk-4</item>
+	    <item>mlk-5</item>    
+	</string-array>
+	
+	<string-array name="negeri_sembilan_code">
+	    <item>ngs-0</item>
+		<item>ngs-1</item>
+		<item>ngs-2</item>
+		<item>ngs-3</item>
+		<item>ngs-4</item>
+		<item>ngs-5</item>
+		<item>ngs-6</item>
+	</string-array>
+	
+	<string-array name="pahang_code">
+	    <item>phg-0</item>
+		<item>phg-1</item>
+		<item>phg-2</item>
+		<item>phg-3</item>
+		<item>phg-4</item>
+		<item>phg-5</item>
+		<item>phg-6</item>
+		<item>phg-7</item>
+		<item>phg-8</item>
+		<item>phg-9</item>
+		<item>phg-10</item>
+		<item>phg-11</item>
+		<item>phg-12</item>
+		<item>phg-13</item>
+		<item>phg-14</item>
+		<item>phg-15</item>
+	</string-array>
+	
+	<string-array name="perak_code">
+	    <item>prk-0</item>
+		<item>prk-1</item>
+		<item>prk-2</item>
+		<item>prk-3</item>
+		<item>prk-4</item>
+		<item>prk-5</item>
+		<item>prk-6</item>
+		<item>prk-7</item>
+		<item>prk-8</item>
+		<item>prk-9</item>
+		<item>prk-10</item>
+		<item>prk-11</item>
+		<item>prk-12</item>
+		<item>prk-13</item>
+		<item>prk-14</item>
+		<item>prk-15</item>
+		<item>prk-16</item>
+		<item>prk-17</item>
+		<item>prk-18</item>
+		<item>prk-19</item>
+		<item>prk-20</item>
+		<item>prk-21</item>
+		<item>prk-22</item>
+		<item>prk-23</item>
+		<item>prk-24</item>
+		<item>prk-25</item>
+		<item>prk-26</item>
+	</string-array>
+	
+	<string-array name="perlis_code">
+		<item>pls-0</item>
+		<item>pls-1</item>
+		<item>pls-2</item>
+	</string-array>
+	
+	<string-array name="pulau_pinang_code">
+	    <item>png-0</item>
+	</string-array>
+	
+	<string-array name="sabah_code">
+	    <item>sbh-0</item>
+		<item>sbh-1</item>
+		<item>sbh-2</item>
+		<item>sbh-3</item>
+		<item>sbh-4</item>
+		<item>sbh-5</item>
+		<item>sbh-6</item>
+		<item>sbh-7</item>
+		<item>sbh-8</item>
+		<item>sbh-9</item>
+		<item>sbh-10</item>
+		<item>sbh-11</item>
+		<item>sbh-12</item>
+		<item>sbh-13</item>
+		<item>sbh-14</item>
+		<item>sbh-15</item>
+		<item>sbh-16</item>
+		<item>sbh-17</item>
+		<item>sbh-18</item>
+		<item>sbh-19</item>
+		<item>sbh-20</item>
+		<item>sbh-21</item>
+		<item>sbh-22</item>
+		<item>sbh-23</item>
+		<item>sbh-24</item>
+		<item>sbh-25</item>
+		<item>sbh-26</item>
+		<item>sbh-27</item>
+		<item>sbh-28</item>
+		<item>sbh-29</item>
+		<item>sbh-30</item>
+		<item>sbh-31</item>
+		<item>sbh-32</item>
+		<item>sbh-33</item>
+		<item>sbh-34</item>
+		<item>sbh-35</item>
+		<item>sbh-36</item>
+		<item>sbh-37</item>
+		<item>sbh-38</item>
+		<item>sbh-39</item>
+		<item>sbh-40</item>
+		<item>sbh-41</item>
+	</string-array>
+	
+	<string-array name="sarawak_code">
+	    <item>swk-0</item>
+		<item>swk-1</item>
+		<item>swk-2</item>
+		<item>swk-3</item>
+		<item>swk-4</item>
+		<item>swk-5</item>
+		<item>swk-6</item>
+		<item>swk-7</item>
+		<item>swk-8</item>
+		<item>swk-9</item>
+		<item>swk-10</item>
+		<item>swk-11</item>
+		<item>swk-12</item>
+		<item>swk-13</item>
+		<item>swk-14</item>
+		<item>swk-15</item>
+		<item>swk-16</item>
+		<item>swk-17</item>
+		<item>swk-18</item>
+		<item>swk-19</item>
+		<item>swk-20</item>
+		<item>swk-21</item>
+		<item>swk-22</item>
+		<item>swk-23</item>
+		<item>swk-24</item>
+		<item>swk-25</item>
+		<item>swk-26</item>
+		<item>swk-27</item>
+		<item>swk-28</item>
+		<item>swk-29</item>
+		<item>swk-30</item>
+		<item>swk-31</item>
+		<item>swk-32</item>
+		<item>swk-33</item>
+		<item>swk-34</item>
+		<item>swk-35</item>
+		<item>swk-36</item>
+		<item>swk-37</item>
+		<item>swk-38</item>
+		<item>swk-39</item>
+		<item>swk-40</item>
+		<item>swk-41</item>
+		<item>swk-42</item>
+		<item>swk-43</item>
+		<item>swk-44</item>
+		<item>swk-45</item>
+		<item>swk-46</item>
+	</string-array>
+	
+	<string-array name="selangor_code">
+	    <item>sgr-0</item>
+		<item>sgr-1</item>
+		<item>sgr-2</item>
+		<item>sgr-3</item>
+		<item>sgr-4</item>
+		<item>sgr-5</item>
+		<item>sgr-6</item>
+		<item>sgr-7</item>
+		<item>sgr-8</item>
+		<item>sgr-9</item>
+		<item>sgr-10</item>
+	</string-array>
+	
+	<string-array name="terengganu_code">
+	    <item>trg-0</item>
+		<item>trg-1</item>
+		<item>trg-2</item>
+		<item>trg-3</item>
+		<item>trg-4</item>
+		<item>trg-5</item>
+	</string-array>
+	
+	<string-array name="wilayah_persekutuan_code">
+	    <item>wlp-0</item>
+		<item>wlp-1</item>
+		<item>wlp-2</item>
+	</string-array>
+	
+	<string-array name="pray_zone">
+		<item>Subuh</item>
+		<item>Syuruk</item>
+		<item>Zohor</item>
+		<item>Asar</item>
+		<item>Maghrib</item>
+		<item>Isyak</item>
+	</string-array>
+	
+</resources>
